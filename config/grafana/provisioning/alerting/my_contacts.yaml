@@ -1,0 +1,12 @@
+apiVersion: 1
+
+contactPoints:
+    - orgId: 1
+      name: Hung
+      receivers:
+        - uid: cf1033fc7tjpdf
+          type: email
+          settings:
+            addresses: hung11a6hongai@gmail.com
+            singleEmail: false
+          disableResolveMessage: false

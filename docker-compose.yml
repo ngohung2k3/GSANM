@@ -1,0 +1,217 @@
+version: '3.8'
+
+# Định nghĩa logging mặc định (Không đổi)
+x-logging:
+  &default-logging
+  driver: "json-file"
+  options:
+    max-size: "1m"
+    max-file: "1"
+    tag: "{{.Name}}"
+
+services:
+  grafana:
+    image: grafana/grafana:11.0.0
+    container_name: grafana
+    ports:
+      - 3000:3000
+    volumes:
+      - ./config/grafana/datasources:/etc/grafana/provisioning/datasources
+      - ./config/grafana/grafana.ini:/etc/grafana/grafana.ini
+      - ./config/grafana/provisioning:/etc/grafana/provisioning
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=false
+      - GF_AUTH_DISABLE_LOGIN_FORM=false
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=secret
+      - GF_FEATURE_TOGGLES_ENABLE=accessControlOnCall lokiLogsDataplane
+      - GF_INSTALL_PLUGINS=https://storage.googleapis.com/integration-artifacts/grafana-lokiexplore-app/grafana-lokiexplore-app-latest.zip;grafana-lokiexplore-app
+    networks:
+      - loki
+    logging: *default-logging
+
+  loki:
+    image: grafana/loki:3.0.0
+    container_name: loki
+    ports:
+      - 3100:3100
+    command: -config.file=/etc/loki/loki.yaml
+    volumes:
+      - ./config/loki/loki.yaml:/etc/loki/loki.yaml
+      
+    networks:
+      - loki
+    logging: *default-logging
+
+  promtail:
+    image:  grafana/promtail:3.0.0
+    container_name: promtail
+    volumes:
+      - ./config/promtail/promtail.yaml:/etc/promtail/docker-config.yaml
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./bWAPP/logs/apache2:/bWAPP/logs/apache2:ro
+    command: -config.file=/etc/promtail/docker-config.yaml
+    depends_on:
+      - loki
+    networks:
+      - loki
+    logging: *default-logging
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - 9090:9090
+    volumes:
+      - ./config/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    networks:
+      - loki
+    logging: *default-logging
+
+  node_exporter:
+    image: prom/node-exporter:latest
+    container_name: node_exporter
+    ports:
+      - "9100:9100"
+    networks:
+      - loki
+    restart: unless-stopped
+    logging: *default-logging
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    ports:
+      - "8080:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+    networks:
+      - loki
+    logging: *default-logging
+
+  bwapp:
+    container_name: bwapp
+    build:
+      context: ./bWAPP
+      dockerfile: Dockerfile
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+    ports:
+      - "8081:80"
+    volumes:
+      - ./bWAPP/logs/apache2:/var/log/apache2
+    networks:
+      - loki
+    logging: *default-logging
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: zookeeper
+    environment:
+      - ZOOKEEPER_CLIENT_PORT=2181
+      - ZOOKEEPER_TICK_TIME=2000
+    ports:
+      - "2181:2181"
+    volumes: # ⭐ THÊM VOLUMES cho dữ liệu Zookeeper
+      - zookeeper_data:/var/lib/zookeeper/data
+      - zookeeper_log:/var/lib/zookeeper/log
+    healthcheck: # ⭐ THÊM HEALTHCHECK
+      test: ["CMD-SHELL", "echo srvr | nc 127.0.0.1 2181 || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+      start_period: 5s
+    networks:
+      - loki
+    logging: *default-logging
+
+  kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: kafka
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      # ⭐ CHỈNH SỬA: Đơn giản hóa Listener để tránh lỗi mạng nội bộ
+      KAFKA_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    ports:
+      - "9092:9092"
+      - "29092:29092" # Giữ lại cho khả năng truy cập bên ngoài nếu cần
+    volumes: # ⭐ THÊM VOLUMES cho dữ liệu Kafka
+      - kafka_data:/var/lib/kafka/data
+    depends_on:
+      zookeeper:
+        condition: service_healthy # ⭐ ĐẢM BẢO Zookeper KHOẺ MẠNH TRƯỚC
+    healthcheck:
+      test: ["CMD", "kafka-broker-api-versions", "--bootstrap-server", "kafka:9092"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - loki
+    logging: *default-logging
+
+  kafka-producer:
+    build:
+      context: ./producer
+      dockerfile: Dockerfile
+    container_name: kafka-producer
+    environment:
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - KAFKA_TOPIC=web-logs
+    volumes:
+      - ./bWAPP/logs/apache2:/var/log/apache2:ro
+      - producer_state:/app
+    depends_on:
+        kafka:
+         condition: service_healthy 
+    networks:
+      - loki
+    logging: *default-logging
+
+  flask-ai:
+    container_name: flask-ai
+    build:
+      context: ./flask_AI
+      dockerfile: Dockerfile
+    environment:
+      - LOKI_URL=http://loki:3100/loki/api/v1/push
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - KAFKA_TOPIC=web-logs
+      - LOKI_JOB=flask-ai
+      - LOKI_APP=flask-ai
+    networks:
+      - loki
+    restart: on-failure
+    depends_on:
+      loki:
+        condition: service_started
+      kafka:
+        condition: service_healthy # ⭐ ĐẢM BẢO Kafka KHOẺ MẠNH TRƯỚC
+    logging: *default-logging
+
+
+networks:
+  loki:
+    name: loki
+
+# ⭐ ĐỊNH NGHĨA CÁC VOLUMES CHO DỮ LIỆU BỀN VỮNG
+volumes:
+  zookeeper_data:
+    driver: local
+  zookeeper_log: 
+    driver: local
+  kafka_data:
+    driver: local
+  producer_state:
+    driver: local

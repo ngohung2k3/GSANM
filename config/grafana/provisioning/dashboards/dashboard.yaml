@@ -1,0 +1,13 @@
+# Đường dẫn: ./config/grafana/provisioning/dashboards/dashboard.yaml
+apiVersion: 1
+providers:
+  - name: 'SQLi Dashboards' # Tên provider
+    orgId: 1
+    folder: '' # Để trống nếu muốn hiển thị ở thư mục gốc (General)
+    type: file
+    # Nếu muốn các thay đổi thủ công qua UI bị ghi đè khi khởi động:
+    updateIntervalSeconds: 10 
+    allowUiUpdates: true # Nếu bạn muốn chỉnh sửa nó qua UI sau này
+    options:
+      # Đường dẫn TƯƠNG ĐỐI so với /etc/grafana/provisioning/dashboards/
+      path: /etc/grafana/provisioning/dashboards/json

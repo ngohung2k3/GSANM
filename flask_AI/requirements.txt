@@ -1,0 +1,7 @@
+kafka-python
+pandas
+scikit-learn
+imbalanced-learn
+urllib3
+requests
+
