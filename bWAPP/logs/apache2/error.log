@@ -1,0 +1,363 @@
+[Sun Oct 12 09:50:52.631863 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Oct 12 09:50:52.631939 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Oct 12 09:51:19.729121 2025] [:error] [pid 723] [client 192.168.43.27:33840] PHP Warning:  mysqli::mysqli(): (42000/1049): Unknown database 'bWAPP' in /app/connect_i.php on line 23, referer: http://192.168.43.27/sqli_1.php
+[Sun Oct 12 11:05:06.493296 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Tue Oct 14 06:45:22.999717 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Oct 14 06:45:22.999867 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Oct 14 11:03:41.549030 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Tue Oct 14 15:15:55.852286 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Oct 14 15:15:55.854431 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Oct 14 15:16:14.060724 2025] [:error] [pid 695] [client 172.19.0.1:41792] PHP Warning:  mysqli::mysqli(): (42000/1049): Unknown database 'bWAPP' in /app/connect_i.php on line 23
+[Tue Oct 14 15:50:39.508387 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Wed Oct 15 07:08:27.611834 2025] [mpm_prefork:notice] [pid 10] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Wed Oct 15 07:08:27.619331 2025] [core:notice] [pid 10] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 15 08:09:14.637455 2025] [mpm_prefork:notice] [pid 10] AH00169: caught SIGTERM, shutting down
+[Wed Oct 15 08:17:46.162709 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Wed Oct 15 08:17:46.171730 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 15 08:42:59.779125 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Wed Oct 15 08:43:43.784502 2025] [mpm_prefork:notice] [pid 438] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Wed Oct 15 08:43:43.786574 2025] [core:notice] [pid 438] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 15 08:59:49.436065 2025] [:error] [pid 692] [client 172.18.0.1:60528] PHP Warning:  mysqli::mysqli(): (42000/1049): Unknown database 'bWAPP' in /app/connect_i.php on line 23, referer: http://localhost:8081/sqli_1.php?title=hello%27+or+1+%3D+1+%23&action=search
+[Wed Oct 15 08:59:53.576620 2025] [:error] [pid 692] [client 172.18.0.1:60528] PHP Warning:  mysqli::mysqli(): (42000/1049): Unknown database 'bWAPP' in /app/connect_i.php on line 23
+[Wed Oct 15 08:59:55.915941 2025] [:error] [pid 692] [client 172.18.0.1:60528] PHP Warning:  mysqli::mysqli(): (42000/1049): Unknown database 'bWAPP' in /app/connect_i.php on line 23
+[Wed Oct 15 10:22:16.758222 2025] [mpm_prefork:notice] [pid 438] AH00169: caught SIGTERM, shutting down
+[Thu Oct 16 08:08:05.951370 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 16 08:08:05.953025 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 16 08:09:02.483746 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Thu Oct 16 08:15:46.875374 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 16 08:15:46.877716 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 16 09:49:17.221685 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Thu Oct 16 13:13:36.844251 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 16 13:13:36.895601 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 16 13:16:49.348061 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Thu Oct 16 13:19:34.892503 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 16 13:19:34.892550 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 16 13:25:24.422209 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Thu Oct 16 13:25:58.384446 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 16 13:25:58.384914 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 16 13:30:51.677248 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Thu Oct 16 13:31:29.481763 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 16 13:31:29.481820 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 16 13:49:15.650710 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Thu Oct 16 13:56:43.135824 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 16 13:56:43.136102 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 16 14:04:39.621698 2025] [:error] [pid 680] [client 172.21.0.1:52640] PHP Warning:  mysqli::mysqli(): (42000/1049): Unknown database 'bWAPP' in /app/connect_i.php on line 23
+[Thu Oct 16 14:50:30.232365 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Thu Oct 16 14:51:10.803120 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 16 14:51:10.804205 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 16 15:38:54.852555 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Thu Oct 16 15:39:28.792669 2025] [mpm_prefork:notice] [pid 438] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 16 15:39:28.792806 2025] [core:notice] [pid 438] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 16 16:56:09.220415 2025] [mpm_prefork:notice] [pid 438] AH00169: caught SIGTERM, shutting down
+[Thu Oct 16 17:10:49.558311 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 16 17:10:49.559930 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 16 17:27:20.972693 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 01:53:30.797480 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 01:53:30.798979 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 01:55:03.180285 2025] [:error] [pid 334] [client 172.23.0.1:45562] PHP Warning:  mysqli::mysqli(): (42000/1049): Unknown database 'bWAPP' in /app/connect_i.php on line 23
+[Fri Oct 17 02:28:37.854380 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 02:29:22.852406 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 02:29:22.853658 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 02:31:51.469186 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 02:32:31.628922 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 02:32:31.632384 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 02:36:36.574557 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 02:37:07.250288 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 02:37:07.251706 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 02:41:45.035046 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 02:44:11.536813 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 02:44:11.538211 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 02:51:32.864532 2025] [core:warn] [pid 11] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 17 02:51:32.884521 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 02:51:32.884596 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 02:56:00.689614 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 02:57:19.176186 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 02:57:19.176342 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 03:00:53.662342 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 03:01:55.716187 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 03:01:55.716410 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 03:07:42.190240 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 03:08:59.712917 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 03:08:59.713351 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 03:10:54.177472 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 03:12:22.878064 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 03:12:22.878129 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 03:20:43.585152 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 03:21:26.548301 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 03:21:26.548433 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 03:26:24.512006 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 03:29:54.576914 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 03:29:54.577510 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 03:32:48.029018 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 03:33:23.900075 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 03:33:23.900943 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 03:40:40.040478 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 03:41:24.503103 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 03:41:24.503965 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 04:00:23.570189 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 04:01:20.372976 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 04:01:20.373356 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 04:15:50.645150 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 06:20:41.937970 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 06:20:41.940165 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 07:07:31.145750 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 07:08:22.367278 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 07:08:22.367410 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 07:53:05.920804 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 07:53:49.675751 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 07:53:49.675821 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 08:00:20.553390 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 08:01:05.448136 2025] [mpm_prefork:notice] [pid 436] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 08:01:05.448745 2025] [core:notice] [pid 436] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 08:04:31.391360 2025] [mpm_prefork:notice] [pid 436] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 08:05:00.881948 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 08:05:00.882087 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 08:10:48.618230 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 08:11:16.255739 2025] [mpm_prefork:notice] [pid 436] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 08:11:16.255916 2025] [core:notice] [pid 436] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 08:14:41.382499 2025] [mpm_prefork:notice] [pid 436] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 08:15:08.857661 2025] [mpm_prefork:notice] [pid 436] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 08:15:08.862920 2025] [core:notice] [pid 436] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 08:19:23.704204 2025] [mpm_prefork:notice] [pid 436] AH00169: caught SIGTERM, shutting down
+[Fri Oct 17 08:19:53.933220 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 17 08:19:53.933753 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 17 08:22:07.137848 2025] [:error] [pid 473] [client 172.24.0.1:49812] PHP Warning:  mysqli::mysqli(): (42000/1049): Unknown database 'bWAPP' in /app/connect_i.php on line 23, referer: http://localhost:8081/portal.php
+[Fri Oct 17 08:25:25.286984 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Thu Oct 23 02:48:33.212975 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 23 02:48:33.223702 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 23 03:02:47.873038 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Thu Oct 23 03:03:17.528504 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 23 03:03:17.546925 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 23 03:17:54.581096 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Thu Oct 23 07:39:48.728264 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 23 07:39:48.730027 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 23 08:02:26.116391 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Thu Oct 23 14:51:32.546057 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 23 14:51:32.573045 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 23 14:53:46.599245 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Thu Oct 23 14:54:13.435171 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 23 14:54:13.440085 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 23 15:16:31.632342 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Thu Oct 23 15:53:11.624995 2025] [mpm_prefork:notice] [pid 10] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Oct 23 15:53:11.627248 2025] [core:notice] [pid 10] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 23 16:39:34.508000 2025] [mpm_prefork:notice] [pid 10] AH00169: caught SIGTERM, shutting down
+[Fri Oct 24 14:19:32.476221 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Oct 24 14:19:32.478275 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 24 15:03:09.406412 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Tue Oct 28 08:39:22.330839 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Oct 28 08:39:22.334357 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Oct 28 08:51:23.492874 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Sun Nov 02 03:49:09.746273 2025] [mpm_prefork:notice] [pid 10] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 02 03:49:09.751178 2025] [core:notice] [pid 10] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 02 03:52:03.551698 2025] [mpm_prefork:notice] [pid 10] AH00169: caught SIGTERM, shutting down
+[Sun Nov 02 03:52:41.993587 2025] [mpm_prefork:notice] [pid 438] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 02 03:52:41.993737 2025] [core:notice] [pid 438] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 02 03:58:12.091101 2025] [mpm_prefork:notice] [pid 438] AH00169: caught SIGTERM, shutting down
+[Sun Nov 02 03:59:05.826299 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 02 03:59:05.826435 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 02 04:05:17.582297 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 02 04:07:02.436760 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 02 04:07:02.446893 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 02 04:17:19.913046 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 02 04:18:49.264277 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 02 04:18:49.265476 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 02 04:20:28.203313 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 02 04:21:05.508796 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 02 04:21:05.508977 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 02 08:45:22.133895 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 02 08:46:02.045109 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 02 08:46:02.056029 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 02 08:52:43.896586 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 02 08:53:22.128340 2025] [mpm_prefork:notice] [pid 437] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 02 08:53:22.129935 2025] [core:notice] [pid 437] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 02 08:59:16.216308 2025] [mpm_prefork:notice] [pid 437] AH00169: caught SIGTERM, shutting down
+[Fri Nov 07 15:12:30.800526 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Fri Nov 07 15:12:30.805183 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 07 16:37:32.964078 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Sat Nov 08 03:33:47.790887 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sat Nov 08 03:33:47.793437 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Nov 08 03:41:11.255387 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Sat Nov 08 03:42:14.954311 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sat Nov 08 03:42:14.954518 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Nov 08 03:49:19.108011 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 03:50:48.344748 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 03:50:48.350785 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 04:22:22.154581 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 04:23:36.908082 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 04:23:36.913066 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 04:29:46.081513 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 04:31:02.128090 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 04:31:02.131073 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 04:50:05.634318 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 04:51:04.993648 2025] [mpm_prefork:notice] [pid 438] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 04:51:05.007365 2025] [core:notice] [pid 438] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 05:07:05.808796 2025] [mpm_prefork:notice] [pid 438] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 05:08:14.761679 2025] [mpm_prefork:notice] [pid 438] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 05:08:14.761974 2025] [core:notice] [pid 438] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 05:12:12.594735 2025] [mpm_prefork:notice] [pid 438] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 05:12:55.775964 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 05:12:55.776165 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 05:28:14.048367 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 08:44:49.067656 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 08:44:49.072201 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 09:07:45.494495 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 09:08:35.589790 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 09:08:35.592671 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 09:14:21.350671 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 09:15:07.806014 2025] [mpm_prefork:notice] [pid 436] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 09:15:07.806092 2025] [core:notice] [pid 436] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 09:20:53.929722 2025] [mpm_prefork:notice] [pid 436] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 09:21:40.011762 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 09:21:40.014610 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 09:36:29.545291 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 09:37:11.944007 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 09:37:11.955525 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 09:52:53.088053 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 09:53:41.342545 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 09:53:41.350036 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 09:57:34.846144 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 09:58:17.530404 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 09:58:17.530572 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 10:06:04.007022 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 10:06:40.409504 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 10:06:40.421394 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 10:10:40.566896 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 10:11:15.275270 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 10:11:15.275331 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 10:23:50.737637 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 10:24:51.726496 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 10:24:51.727289 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 10:28:12.445156 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 10:29:21.689352 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 10:29:21.709037 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 10:37:42.998755 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 10:38:24.265684 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 10:38:24.265846 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 10:42:11.659508 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 10:44:22.510757 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 10:44:22.516844 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 10:45:49.424593 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 10:46:24.131451 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 10:46:24.135775 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 10:50:17.665608 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Sun Nov 09 10:50:56.154469 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Sun Nov 09 10:50:56.156243 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Nov 09 10:53:03.655063 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 02:48:57.002158 2025] [mpm_prefork:notice] [pid 10] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 02:48:57.004232 2025] [core:notice] [pid 10] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 02:55:10.733497 2025] [mpm_prefork:notice] [pid 10] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 02:55:42.140654 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 02:55:42.140805 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 03:02:51.290866 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 03:05:13.185676 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 03:05:13.188943 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 03:24:33.316054 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 10:25:25.450126 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 10:25:25.452246 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 10:27:54.229735 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 10:28:18.031783 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 10:28:18.031893 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 10:33:00.497732 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 10:33:39.234656 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 10:33:39.234792 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 10:43:08.963249 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 10:45:34.537407 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 10:45:34.537792 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 10:50:38.975300 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 10:51:31.773556 2025] [mpm_prefork:notice] [pid 439] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 10:51:31.773770 2025] [core:notice] [pid 439] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 10:55:46.996471 2025] [mpm_prefork:notice] [pid 439] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 10:56:18.866642 2025] [mpm_prefork:notice] [pid 436] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 10:56:18.868235 2025] [core:notice] [pid 436] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 11:03:50.397324 2025] [mpm_prefork:notice] [pid 436] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 11:06:49.220169 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 11:06:49.229287 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 11:10:28.519488 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 21:58:39.276764 2025] [mpm_prefork:notice] [pid 12] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 21:58:39.293206 2025] [core:notice] [pid 12] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 23:01:30.321782 2025] [mpm_prefork:notice] [pid 12] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 23:02:41.657863 2025] [mpm_prefork:notice] [pid 438] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 23:02:41.660570 2025] [core:notice] [pid 438] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 23:10:09.275785 2025] [mpm_prefork:notice] [pid 438] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 23:11:10.229377 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 23:11:10.229635 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 23:18:01.277003 2025] [:error] [pid 587] [client 172.19.0.1:47098] PHP Warning:  mysqli::mysqli(): (42000/1049): Unknown database 'bWAPP' in /app/connect_i.php on line 23, referer: http://localhost:8081/sqli_1.php?title=hello%27+or+1+%3D+1+%23&action=search
+[Mon Nov 10 23:32:39.831713 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Mon Nov 10 23:33:15.443108 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Mon Nov 10 23:33:15.443406 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 10 23:50:28.999593 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 00:30:19.362266 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 00:30:19.364889 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 00:34:14.162793 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 08:18:38.883260 2025] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 08:18:38.890621 2025] [core:notice] [pid 11] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 08:20:36.698380 2025] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 08:21:17.908859 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 08:21:17.909022 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 08:54:35.960444 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 08:55:30.100396 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 08:55:30.103318 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 08:57:25.888634 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 09:00:15.058370 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 09:00:15.061264 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 09:03:29.569864 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 15:07:12.756001 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 15:07:12.764502 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 15:11:17.627943 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 16:14:26.164590 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 16:14:26.167887 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 16:32:01.923946 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 16:46:45.717801 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 16:46:45.718578 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 17:33:13.820453 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 20:42:16.813432 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 20:42:16.816601 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 21:04:35.187539 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 21:05:16.722030 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 21:05:16.722095 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 21:11:56.386937 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 21:12:36.457783 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 21:12:36.460289 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 21:24:34.456409 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 21:25:15.612708 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 21:25:15.612866 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 21:36:46.700579 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 21:37:38.518524 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 21:37:38.519930 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 21:45:42.189655 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 21:46:16.634967 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 21:46:16.636820 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 22:00:52.029772 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 22:01:27.754856 2025] [mpm_prefork:notice] [pid 436] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 22:01:27.755169 2025] [core:notice] [pid 436] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 22:09:05.376308 2025] [mpm_prefork:notice] [pid 436] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 22:09:39.209785 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 22:09:39.210567 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 22:21:05.820062 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 22:21:53.582879 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 22:21:53.582945 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 22:27:24.321094 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 22:28:00.327409 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 22:28:00.327516 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 22:29:44.675639 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 22:35:14.978260 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 22:35:14.978336 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 22:44:01.587793 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 22:45:02.458408 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 22:45:02.458524 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 22:53:51.230175 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Tue Nov 11 22:55:24.664701 2025] [mpm_prefork:notice] [pid 434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Tue Nov 11 22:55:24.666166 2025] [core:notice] [pid 434] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Nov 11 23:08:27.589002 2025] [mpm_prefork:notice] [pid 434] AH00169: caught SIGTERM, shutting down
+[Wed Nov 12 07:38:40.528992 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Wed Nov 12 07:38:40.530726 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Nov 12 09:13:15.723109 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
+[Wed Nov 12 09:49:40.174973 2025] [mpm_prefork:notice] [pid 10] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Wed Nov 12 09:49:40.182787 2025] [core:notice] [pid 10] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Nov 12 09:52:42.895041 2025] [mpm_prefork:notice] [pid 10] AH00169: caught SIGTERM, shutting down
+[Thu Nov 13 09:56:22.292613 2025] [mpm_prefork:notice] [pid 438] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Nov 13 09:56:22.299481 2025] [core:notice] [pid 438] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Nov 13 10:20:50.206528 2025] [mpm_prefork:notice] [pid 438] AH00169: caught SIGTERM, shutting down
+[Thu Nov 13 10:21:44.708211 2025] [mpm_prefork:notice] [pid 435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.14 configured -- resuming normal operations
+[Thu Nov 13 10:21:44.708383 2025] [core:notice] [pid 435] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Nov 13 11:33:18.516146 2025] [mpm_prefork:notice] [pid 435] AH00169: caught SIGTERM, shutting down
